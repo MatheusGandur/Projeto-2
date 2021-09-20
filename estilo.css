@@ -1,0 +1,344 @@
+
+@font-face {
+            font-family:'KaushanScript' ;
+            src: url(Kaushan_Script/KaushanScript-Regular.ttf);
+        }
+ @font-face{
+ 	 font-family:'sacra' ;
+     src: url(Sacramento/Sacramento-Regular.ttf);
+}
+body{
+	background-color: #7FFFD4;
+	text-align: center;
+	font-family: 'KaushanScript';
+             color: purple;
+             font-size: 19pt;
+             text-align: center;
+}
+
+div.titulo1 {
+	background:mintcream;
+	font-size: 40px;
+	padding: 40;
+	padding-top: 40px;
+	text-align: center;
+
+	margin: 40;
+	border: 3px solid black;
+
+
+}
+h1.b1 {
+	text-align: center;
+}
+
+p.t1{
+	font-size: x-large;
+	color: black;
+	margin-left: 350px;
+}
+
+figure.foto1{
+	width: 48%;
+	margin-left: 490px;
+	border: 5px solid white;
+	padding: 12px 12px 5px;
+	margin-top: 2px;
+	box-shadow: 2px 2px 2em black;
+	transform: skew(28deg,2deg);
+
+
+}
+
+figure.foto2 {
+	width: 32%;
+	margin-left: 620px;
+	border: 5px solid white;
+	padding: 12px 12px 5px;
+	margin-top: 2px;
+	box-shadow: 2px 2px 2em black;
+	transform: rotate(15deg)
+}
+
+figure.foto3 {
+	width: 51%;
+	margin-left: 460px;
+	border: 5px solid white;
+	padding: 12px 12px 5px;
+	margin-top: 2px;
+	box-shadow: 2px 2px 2em black;
+	transform: rotate(15deg)
+
+}
+
+figure.foto4 {
+	width: 30%;
+	margin-left: 700px;
+	border: 5px solid white;
+	padding: 12px 12px 5px;
+	margin-top: 2px;
+	box-shadow: 2px 2px 2em black;
+    transform: skew(20deg,10deg);
+}
+
+p.t2 {
+	font-size: x-large;
+	color: black;
+	margin-left: 190px;
+}
+
+div.texto1 {
+	        text-underline-position: center;
+	        text-align: center;
+            padding: 20px;
+            background-color: white;
+            border: 7px solid black;
+            border-radius: 170px;
+            box-sizing: border-box;
+            display: table-cell;
+            vertical-align: middle;
+            font-size: 13pt;
+
+}
+
+p.p2{
+	text-align: center;
+	font-size: x-large;
+}
+
+
+ p.temamusica { 
+             font-family: 'KaushanScript';
+             color: purple;
+             font-size: 19pt;
+             text-align: center;
+}
+
+audio.peep {
+	width: 750px;
+	margin: 0 auto;
+	display: block;
+}
+
+
+p{
+     text-align: center;
+     padding: 40px;
+        }
+.gap{
+	column-rule: 4px inset black;
+}
+.tex1{
+	column-count: 4;
+	       
+}
+
+a.inicio{
+	font-family: 'KaushanScript';
+	color: blue;
+	font-size: 20pt;
+
+	
+
+
+}
+	
+a.segundo{
+	font-family: 'KaushanScript';
+	color: blue;
+	font-size: 20pt;
+
+}
+a.terceiro{
+	font-family: 'KaushanScript';
+	color: blue;
+	font-size: 20pt;
+	
+}
+a.quarto{
+	font-family: 'KaushanScript';
+	color: blue;
+	font-size: 20pt;
+
+
+
+}
+
+p.form{
+	font-family: 'KaushanScript';
+             color: purple;
+             font-size: 19pt;
+             text-align: center;
+}
+}
+
+{
+	margin: 0;
+	padding: 0;
+
+}
+.formulario{
+	width: 800px;
+	background-color: solid white;
+	margin: auto;
+	color: black;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: inset 0 0 1em white, 0 0 1em black;}
+
+.material{
+	background-color: rgb(0,0,0,0.6);
+	width: 800px;
+	margin: auto;
+}
+form {
+	padding: 10px;
+
+}
+#nome {
+	width: 100%;
+	height: 100px;
+}
+.nome{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 125px;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.primeironome{
+	position: center;
+	line-height: 40px;
+	width: 440px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.sobrenome{
+	position: relative;
+	left: 190px;
+	top: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+
+
+}
+
+
+
+.sobrenomelabel{
+	position: relative;
+	color: #E5E5E5E5;
+	text-transform: capitalize;
+	font-size: 14px;
+	left: 169px;
+	top: 045px;
+}
+
+.email{
+	position: center;
+	line-height: 40px;
+	width: 430px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+
+.codigo{
+	position: center;
+	line-height: 40px;
+	width: 20px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.number{
+	position: center;
+	line-height: 40px;
+	width: 95px;
+	border-radius: 6px;
+	padding: 0 22px;
+	font-size: 16px;
+	color: #555;
+}
+.codigo_area{
+	position: relative;
+	color: #E5E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+
+}
+.numero_telefone{
+	position: relative;
+	color: #E5E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+
+}
+.cor{
+	position: relative;
+	color: #E5E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+.nivel{
+	position: relative;
+	color: #E5E5E5E5;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+button{
+	background-color: solid black;
+	margin:20px 0px 0px 20px;
+	text-align:center;
+	border-radius: 12px;
+	border: 2px solid solid white;
+	padding: 10px 50px;
+	outline: none;
+	color: solid white;
+	cursor: pointer;
+	transition: 0.25px;
+	 color: white;
+  background: gray;
+  transition: background 1s;
+}
+button:hover,
+button:focus {
+  background: black;
+}
+
+.load {
+  animation: is-rotating 1s infinite;
+  border: 7px solid #e5e5e5;
+  border-radius: 60%;
+  border-top-color: #51d4db;
+  height: 80px;
+  width: 80px;
+ 
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+footer.final {
+    background:mintcream;
+	font-size: 20px;
+	padding: 2;
+	padding-top: 10px;
+	text-align: center;
+
+	margin: auto;
+	border: 3px solid black;
+
+}
